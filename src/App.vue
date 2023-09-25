@@ -1,0 +1,43 @@
+<script setup>
+import { onBeforeMount, ref } from 'vue'
+import HeaderComponent from './components/HeaderComponent.vue'
+import resume_config from './assets/resume_config.json'
+
+const lang = ref('')
+
+onBeforeMount(() => {
+  let languages = Object.keys(resume_config.languages)
+  const pathname = window.location.pathname
+  let [set_language] = pathname.split('/').slice(-1) 
+  console.log(set_language)
+  if(languages.includes(set_language)) lang.value = set_language
+  else lang.value = languages[0]  
+  })
+</script>
+
+<template>
+  <body class="theme-default wrapper">
+    <select v-model="lang" name="languages" id="lang" style="float: right">
+      <option v-for="language of Object.keys(resume_config.languages)" :value="language">{{resume_config.languages[language]}}</option>
+    </select>
+    <HeaderComponent :config="resume_config" :lang="lang"/>
+    
+    <footer class="page-footer">
+      <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
+    </footer>
+  </body>
+</template>
+
+<style lang="scss">
+// "Reset" styles and SCSS reusable components
+@import "./scss/normalize";
+@import "./scss/mixins";
+@import "./scss/variables";
+
+// Generic site base & layout styles
+@import "./scss/base";
+@import "./scss/layout";
+
+// Layouts
+@import "./scss/resume";
+</style>

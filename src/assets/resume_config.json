@@ -1,0 +1,62 @@
+{
+  "languages": {
+    "pt": "Português",
+    "en": "English"
+  },
+  "avatar": "true",
+  "name": "Lisa M. Simpson",
+  "show_contact": true,
+  "contact": "lisasimpson@gmail.com",
+  "en": {
+    "resume_title": "VP of Global Communications",
+    "resume_intro": "This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise.",
+    "contact_button_message": "Contact me"
+  },
+  "pt": {
+    "resume_title": "VP de Comunicações Globais",
+    "resume_intro": "Este é um resumo. Você deve escrever frases breve, concisas e significativas sobre você em um contexto profissional, e seus objetivos de carreira. Faça de tamanho apropriado para suas necessidades, mas mantenha breve e conciso.",
+    "contact_button_message": "Entre em contato"
+  },
+  "social_links": [
+    {
+      "name": "Github",
+      "show": true,
+      "url": "https://github.com/"
+    },
+    {
+      "name": "Twitter",
+      "show": true,
+      "url": "http://twitter.com/"
+    },
+    {
+      "name": "Facebook",
+      "show": true,
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "name": "Linkedin",
+      "show": true,
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "name": "Instagram",
+      "show": true,
+      "url": "https://www.instagram.com"
+    },
+    {
+      "name": "Website",
+      "show": true,
+      "url": "http://www.google.com"
+    },
+    {
+      "name": "Medium",
+      "show": true,
+      "url": "https://medium.com/"
+    },
+    {
+      "name": "Pdf",
+      "show": true,
+      "url": "url_to_your_pdf"
+    }
+  ]
+}
