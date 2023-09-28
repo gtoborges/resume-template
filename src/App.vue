@@ -6,11 +6,10 @@ import resume_config from './assets/resume_config.json'
 const lang = ref('')
 
 onBeforeMount(() => {
-  let languages = Object.keys(resume_config.languages)
-  const pathname = window.location.pathname
-  let [set_language] = pathname.split('/').slice(-1) 
-  console.log(set_language)
-  if(languages.includes(set_language)) lang.value = set_language
+  const params = new URLSearchParams(window.location.search)
+  const preset_language = params.get('lang')
+  const languages = Object.keys(resume_config.languages)
+  if(languages.includes(preset_language)) lang.value = preset_language
   else lang.value = languages[0]  
   })
 </script>
