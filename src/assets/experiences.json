@@ -1,0 +1,40 @@
+{
+  "pt": [
+    {
+      "company": "Springfield International Human Rights Outreach",
+      "position": "VP De Comunicações globais", 
+      "duration": { "start": "Outubro, 2013", "finish": "Presente" },
+      "summary": "Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:",
+      "bullet_points": [
+        "A project you are proud of",
+        "Another awesome project",
+        "or a team or department you worked with"
+      ]
+    },
+    {
+      "company": "United Nations Human Rights Council",
+      "position": "Diretora de Estratégia Digital",
+      "duration": { "start": "Junho, 2010", "finish": "Setembro, 2013"},
+      "summary": "If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience."
+    }
+  ],
+  "en": [
+    {
+      "company": "Springfield International Human Rights Outreach",
+      "position": "VP of Global Communications", 
+      "duration": { "start": "Oct, 2013", "finish": "Present" },
+      "summary": "Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:",
+      "bullet_points": [
+        "A project you are proud of",
+        "Another awesome project",
+        "or a team or department you worked with"
+      ]
+    },
+    {
+      "company": "United Nations Human Rights Council",
+      "position": "Director of Digital Strategy",
+      "duration": { "start": "Jun, 2010", "finish": "Sept, 2013"},
+      "summary": "If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience."
+    }
+  ]
+}

@@ -58,5 +58,8 @@
       "show": true,
       "url": "dwight-schrute-resume.pdf"
     }
-  ]
+  ],
+  "resume_sections": {
+    "experiences": true,
+  }
 }

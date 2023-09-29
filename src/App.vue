@@ -1,6 +1,7 @@
 <script setup>
 import { onBeforeMount, ref } from 'vue'
 import HeaderComponent from './components/HeaderComponent.vue'
+import ExperiencesComponent from './components/ExperiencesComponent.vue';
 import resume_config from './assets/resume_config.json'
 
 const lang = ref('')
@@ -21,6 +22,7 @@ onBeforeMount(() => {
     </select>
     <HeaderComponent :config="resume_config" :lang="lang"/>
     
+    <ExperiencesComponent v-if="resume_config.resume_sections['experiences']" :lang="lang"/>
     <footer class="page-footer">
       <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
     </footer>
