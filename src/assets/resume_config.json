@@ -61,5 +61,6 @@
   ],
   "resume_sections": {
     "experiences": true,
+    "education": true
   }
 }
