@@ -1,4 +1,30 @@
 {
-  "pt": {},
-  "en": {}
+  "pt": [
+    {
+      "institution": "Universidade de Yale",
+      "degree": "Bacharelado em Artes",
+      "duration": {
+        "start": "2004",
+        "finish": "2008"
+      },
+      "awards": [
+        "Graduado com a Maior das Honras (Summa Cumma Laude)"
+      ],
+      "award": "",
+      "summary": "Se você teve alguma participação significativa na universidade, escreva sobre nesta seção"
+    }
+  ],
+  "en": [
+    {
+      "institution": "Yale University",
+      "degree": "Bachelor of Arts, Human Rights",
+      "duration": {
+        "start": "2004",
+        "finish": "2008"
+      },
+      "awards": [],
+      "award": "Summa Cumme Laude graduate",
+      "summary": "If you had any meaningful roles at college, feel free to write about them here"
+    }
+  ]
 }

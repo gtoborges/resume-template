@@ -1,6 +1,6 @@
 <script setup>
 import experiences from '../assets/experiences.json' 
-const props = defineProps(['experiences', 'lang'])
+const props = defineProps(['lang'])
 </script>
 
 <template>
