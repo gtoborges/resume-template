@@ -1,0 +1,18 @@
+{
+  "pt": [
+    {
+      "project": "jazznotes.io",
+      "role": "Fundador e desenvolvedor primário",
+      "duration": { "start": "2012", "finish": "Presente" },
+      "description": "Jazz Notes é um projeto com node/ember open source que te ajuda a manter registros de suas composições musicais e novas ideias"
+    }
+  ],
+  "en": [
+    {
+      "project": "jazznotes.io",
+      "role": "Founder & Primary Developer",
+      "duration": { "start": "2012", "finish": "Present" },
+      "description": "Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas."
+    }
+  ]
+}
