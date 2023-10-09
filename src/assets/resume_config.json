@@ -62,6 +62,7 @@
   "resume_sections": {
     "experiences": true,
     "education": true,
-    "projects": true
+    "projects": true,
+    "skills": true
   }
 }

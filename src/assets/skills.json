@@ -1,0 +1,22 @@
+{
+  "pt": [
+    {
+      "name": "Liderança organizacional",
+      "description": "Eu tenho vários anos de experiência liderando organizações desde grupos de comunidade até departamentos de negócio. Desde falar em público, mentorias e coordenação de pessoas e eventos, eu posso liderar em qualquer contexto."
+    },
+    {
+      "name": "Estratégias de comunicação",
+      "description": "Conteúdo e estratégia de marketing"
+    }
+  ],
+  "en": [
+    {
+      "name": "Organizational leadership",
+      "description": "I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context."    
+    },
+    {
+      "name": "Communications strategy",
+      "description": "Content and marketing strategy."
+    }
+  ]
+}
