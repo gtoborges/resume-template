@@ -63,6 +63,7 @@
     "experiences": true,
     "education": true,
     "projects": true,
-    "skills": true
+    "skills": true,
+    "recognitions": true
   }
 }

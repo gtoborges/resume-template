@@ -5,6 +5,7 @@ import ExperiencesComponent from './components/ExperiencesComponent.vue';
 import EducationComponent from './components/EducationComponent.vue'
 import ProjectsComponent from './components/ProjectsComponent.vue'
 import SkillsComponent from './components/SkillsComponent.vue'
+import RecognitionsComponent from './components/RecognitionsComponent.vue'
 import resume_config from './assets/resume_config.json'
 
 const lang = ref('')
@@ -27,7 +28,8 @@ onBeforeMount(() => {
     <ExperiencesComponent v-if="resume_config.resume_sections['experiences']" :lang="lang"/>
     <EducationComponent v-if="resume_config.resume_sections['education']" :lang="lang"/>
     <ProjectsComponent v-if="resume_config.resume_sections['projects']" :lang="lang"/>
-    <SkillsComponent v-if="resume_config.resume_sections['projects']" :lang="lang"/>
+    <SkillsComponent v-if="resume_config.resume_sections['skills']" :lang="lang"/>
+    <RecognitionsComponent v-if="resume_config.resume_sections['recognitions']" :lang="lang"/>
     <footer class="page-footer">
       <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
     </footer>
