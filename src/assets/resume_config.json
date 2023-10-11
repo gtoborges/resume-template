@@ -64,6 +64,7 @@
     "education": true,
     "projects": true,
     "skills": true,
-    "recognitions": true
+    "recognitions": true,
+    "associations": true
   }
 }
