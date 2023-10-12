@@ -1,12 +1,12 @@
 <script setup>
 import recognitions from '../assets/recognitions.json'
-const props = defineProps(['lang'])
+const props = defineProps(['lang', 'translations'])
 </script>
 
 <template>
   <section class="content-section">
     <header class="section-header">
-      <h2>Recognitions</h2>
+      <h2>{{ props.translations.title }}</h2>
     </header>
     <div class="resume-item" v-for="recognition in recognitions[props.lang]">
       <h3 class="resume-item-title">

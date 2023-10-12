@@ -27,13 +27,41 @@ onBeforeMount(() => {
       <option v-for="language of Object.keys(resume_config.languages)" :value="language">{{resume_config.languages[language]}}</option>
     </select>
     <HeaderComponent :config="resume_config" :lang="lang"/>
-    <ExperiencesComponent v-if="resume_config.resume_sections['experiences']" :lang="lang"/>
-    <EducationComponent v-if="resume_config.resume_sections['education']" :lang="lang"/>
-    <ProjectsComponent v-if="resume_config.resume_sections['projects']" :lang="lang"/>
-    <SkillsComponent v-if="resume_config.resume_sections['skills']" :lang="lang"/>
-    <RecognitionsComponent v-if="resume_config.resume_sections['recognitions']" :lang="lang"/>
-    <AssociationsComponent v-if="resume_config.resume_sections['associations']" :lang="lang"/>
-    <LinksComponent v-if="resume_config.resume_sections['links']" :lang="lang"/>
+    <ExperiencesComponent 
+      v-if="resume_config.resume_sections['experiences']" 
+      :lang="lang"
+      :translations="resume_config[lang]['experiences']"
+    />
+    <EducationComponent 
+      v-if="resume_config.resume_sections['education']" 
+      :lang="lang"
+      :translations="resume_config[lang]['education']"
+    />
+    <ProjectsComponent 
+      v-if="resume_config.resume_sections['projects']" 
+      :lang="lang"
+      :translations="resume_config[lang]['projects']"
+    />
+    <SkillsComponent 
+      v-if="resume_config.resume_sections['skills']" 
+      :lang="lang"
+      :translations="resume_config[lang]['skills']"
+    />
+    <RecognitionsComponent 
+      v-if="resume_config.resume_sections['recognitions']" 
+      :lang="lang"
+      :translations="resume_config[lang]['recognitions']"
+    />
+    <AssociationsComponent 
+      v-if="resume_config.resume_sections['associations']" 
+      :lang="lang"
+      :translations="resume_config[lang]['associations']"
+    />
+    <LinksComponent 
+      v-if="resume_config.resume_sections['links']" 
+      :lang="lang"
+      :translations="resume_config[lang]['links']"
+    />
     <footer class="page-footer">
       <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
     </footer>

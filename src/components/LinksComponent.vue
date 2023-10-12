@@ -1,12 +1,12 @@
 <script setup>
 import links from '../assets/links.json'  
-const props = defineProps(['lang'])
+const props = defineProps(['lang', 'translations'])
 </script>
 
 <template>
   <section class="content-section">
     <header class="section-header">
-      <h2>Additional links</h2>
+      <h2>{{ props.translations.title }}</h2>
     </header>
     <div class="resume-item">
       <ul class="resume-item-list">

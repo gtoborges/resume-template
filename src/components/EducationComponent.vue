@@ -1,12 +1,12 @@
 <script setup>
 import education from '../assets/education.json'
-const props = defineProps(['lang'])
+const props = defineProps(['lang', 'translations'])
 </script>
 
 <template>
   <section class="content-section">
     <header class="section-header">
-      <h2>Education</h2>
+      <h2>{{ props.translations.title }}</h2>
     </header>
     <div class="resume-item" v-for="education in education[props.lang]">
       <h3 class="resume-item-title">
