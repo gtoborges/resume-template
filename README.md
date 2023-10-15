@@ -21,6 +21,7 @@ First you'll want to fork the repo to your own account. Then clone it locally an
 
 Most of the basic customization will take place in the `/src/assets/resume_config.json` file.
 
+This fork remade the project with Vite and Vue. One feature of translation was added to the project.
 You can add as many languages as you like, as long as you fill the other *json* files accordingly.
 
 #### Editing content
