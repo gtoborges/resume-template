@@ -1,22 +1,38 @@
 {
   "pt": [
     {
-      "name": "Liderança organizacional",
-      "description": "Eu tenho vários anos de experiência liderando organizações desde grupos de comunidade até departamentos de negócio. Desde falar em público, mentorias e coordenação de pessoas e eventos, eu posso liderar em qualquer contexto."
+      "name": "",
+      "description": "Disposto a fazer qualquer coisa para fechar uma venda e/ou agradar os superiores"
     },
     {
-      "name": "Estratégias de comunicação",
-      "description": "Conteúdo e estratégia de marketing"
+      "name": "",
+      "description": "Resistência a germes, vírus, fungos e a maioria das outras ameaças à saúde"
+    },
+    {
+      "name": "",
+      "description": "Habilidade de elevar e diminuir o próprio colesterol por vontate própria"
+    },
+    {
+      "name": "",
+      "description": "Outros demais para mencionar"
     }
   ],
   "en": [
     {
-      "name": "Organizational leadership",
-      "description": "I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context."    
+      "name": "",
+      "description": "Willingness to do anything to close a sale and/or please higher-ups"    
     },
     {
-      "name": "Communications strategy",
-      "description": "Content and marketing strategy."
+      "name": "",
+      "description": "Resistance to germs, viruses, fungi, and most other health threats"
+    },
+    {
+      "name": "",
+      "description": "Ability to raise and lower own cholesterol at will"
+    },
+    {
+      "name": "",
+      "description": "Others too numerous to mention"
     }
   ]
 }

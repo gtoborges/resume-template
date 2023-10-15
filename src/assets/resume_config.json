@@ -1,10 +1,10 @@
 {
   "languages": {
-    "pt": "Português",
-    "en": "English"
+    "en": "English",
+    "pt": "Português"
   },
   "avatar": "true",
-  "name": "Lisa M. Simpson",
+  "name": "Dwight K. Schrute",
   "show_contact": true,
   "social_links": [
     {
@@ -48,9 +48,9 @@
       "url": "dwight-schrute-resume.pdf"
     }
   ],
-  "contact": "lisasimpson@gmail.com",
+  "contact": "dkschrute@gmail.com",
   "en": {
-    "resume_title": "VP of Global Communications",
+    "resume_title": "Regional Manager",
     "resume_intro": "This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise.",
     "contact_button_message": "Contact me",
     "experiences": { "title": "Experiences", "skills": "Technologies" },
@@ -62,10 +62,10 @@
     "links": { "title": "Additional Links" }
   },
   "pt": {
-    "resume_title": "VP de Comunicações Globais",
+    "resume_title": "Gerente Regional",
     "resume_intro": "Este é um resumo. Você deve escrever frases breve, concisas e significativas sobre você em um contexto profissional, e seus objetivos de carreira. Faça de tamanho apropriado para suas necessidades, mas mantenha breve e conciso.",
     "contact_button_message": "Entre em contato",
-    "experiences": { "title": "Experiencias profissionais", "skills": "Tecnologias" },
+    "experiences": { "title": "Experiencias profissionais", "skills": "Habilidades" },
     "education": { "title": "Educação" },
     "projects": { "title": "Projetos" },
     "skills": { "title": "Habilidades" },

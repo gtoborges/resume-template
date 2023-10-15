@@ -1,20 +1,54 @@
 {
   "pt": [
     {
-      "organization": "PETA",
-      "role": "Voluntário",
-      "year": "2001 — 2010",
-      "url": "https://www.peta.org/",
-      "summary": "Organizou campanhas de arrecadação de fundos e participou de eventos de angariação de fundos em benefício das operações locais da PETA em Springfield."
+      "organization": "Departamento do Xerife do Condado de Lackawanna",
+      "role": "Xerife Voluntário",
+      "year": "2011 — Atualmente",
+      "url": "#",
+      "summary": "",
+      "bullet_points": [
+        "Garanti a segurança e o bem-estar dos residentes do condado por meio de anotações diligentes e investigação de pessoas suspeitas",
+        "Co-fundei e treinei um grupo de voluntários de vigilância chamado Cavaleiros da Noite",
+        "Avaliei as medidas de segurança em várias empresas locais e escrevi relatórios sugerindo como atualizar seus programas e melhorar a segurança em suas instalações",
+        "Acompanhei os delegados de serviço para me manter atualizado sobre os novos métodos e técnicas usados pelos atuais agentes da lei"
+      ]
+    },
+    {
+      "organization": "Goju Ryu Karate",
+      "role": "Senpai (Assistente do Sensei)",
+      "year": "2005 — Atualmente",
+      "url": "#",
+      "summary": "",
+      "bullet_points": [
+        "Reduzi lesões em 75% substituindo equipamentos desgastados e verificando riscos à segurança",
+        "Assumi responsabilidades de manutenção geral, o que permitiu ao sensei realizar aulas adicionais para obter mais lucro"
+      ]
     }
   ],
   "en": [
     {
-      "organization": "PETA",
-      "role": "Volunteer",
-      "year": "2001 — 2010",
-      "url": "https://www.peta.org/",
-      "summary": "Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations."
+      "organization": "Lackawanna County Sheriff’s Department",
+      "role": "Volunteer Sheriff’s Deputy",
+      "year": "2011 — Present",
+      "url": "#",
+      "summary": "",
+      "bullet_points": [
+        "Ensured the safety and well-being of the county’s residents through diligent note taking and investigating suspicious persons",
+        "Co-founded and trained a group of neighborhood watch volunteers called Knights of the Night",
+        "Assessed the security measures at several local businesses and wrote reports suggesting how to update their program and improve safety on their premises",
+        "Shadowed on-duty deputies to stay up to date on new methods and techniques used by current law enforcement officers"
+      ]
+    },
+    {
+      "organization": "Goju Ryu Karate",
+      "role": "Senpai (Assistant to the Sensei)",
+      "year": "2005 — Present",
+      "url": "#",
+      "summary": "",
+      "bullet_points": [
+        "Reduced injuries 75% by replacing worn out equipment and checking for safety hazards",
+        "Assumed general maintenance responsibilities which allowed the sensei to hold additional classes for more profit"
+      ]
     }
   ]
 }

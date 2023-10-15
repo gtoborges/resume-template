@@ -1,21 +1,29 @@
 {
   "pt": [
     {
-      "description": "Entusiastas de Jazz de Springfield",
+      "description": "Bears",
       "url": "#"
     },
     {
-      "description": "Jovens profissionais de Springfield",
+      "description": "Beets",
+      "url": "#"
+    },
+    {
+      "description": "Battlestar Galactica",
       "url": "#"
     }
   ],
   "en": [
     {
-      "description": "Springfield Jazz Enthusiasts",
+      "description": "Bears",
       "url": "#"
     },
     {
-      "description": "Springfield Young Professionals",
+      "description": "Beets",
+      "url": "#"
+    },
+    {
+      "description": "Battlestar Galactica",
       "url": "#"
     }
   ]

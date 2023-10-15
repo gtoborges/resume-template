@@ -1,29 +1,50 @@
 {
   "pt": [
     {
-      "company": "Springfield International Human Rights Outreach",
-      "position": "VP De Comunicações globais", 
-      "duration": { "start": "Outubro, 2013", "finish": "Presente" },
-      "summary": "Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:",
+      "company": "Dunder Mifflin",
+      "position": "Gerente Regional",
+      "duration": { "start": "Maio, 2013", "finish": "Presente" },
+      "summary": "Escreva sobre suas competências principais em uma ou duas frases descrevendo sua posição. Se você ocupou o cargo por um longo tempo, esta seção pode ser mais longa, incluindo um par de pontos principais:",
       "bullet_points": [
-        "A project you are proud of",
-        "Another awesome project",
-        "or a team or department you worked with"
-      ],
-      "skills": "TypeScript · Node.js · Appscript · Serveless"
+        "Um projeto do qual você se orgulha",
+        "Outro projeto incrível",
+        "ou uma equipe ou departamento com a qual você trabalhou"
+      ]
     },
     {
-      "company": "United Nations Human Rights Council",
-      "position": "Diretora de Estratégia Digital",
-      "duration": { "start": "Junho, 2010", "finish": "Setembro, 2013"},
-      "summary": "If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience."
+      "company": "Dunder Mifflin",
+      "position": "Assistente (do) Gerente Regional",
+      "duration": { "start": "Março, 2008", "finish": "Março, 2013" },
+      "summary": "Se o seu período foi curto, fique à vontade para ser breve e destacar os pontos mais significativos de sua função. Seja conciso e significativo. A pessoa que lê só precisa o suficiente para querer conversar mais sobre sua experiência."
+    },
+    {
+      "company": "Staples",
+      "position": "Associado de Vendas",
+      "duration": { "start": "Março, 2008", "finish": "Março, 2008" },
+      "summary": "",
+      "bullet_points": [
+        "Tornei-me o melhor vendedor da loja em um mês",
+        "Alcancei um recorde de vendas apesar de ter um chefe sem senso de humor",
+        "Forneci um atendimento ao cliente extraordinário e excepcional às massas"
+      ]
+    },
+    {
+      "company": "Dunder Mifflin",
+      "position": "Assistente (do) Gerente Regional",
+      "duration": { "start": "Março, 2005", "finish": "Março, 2008" },
+      "summary": "",
+      "bullet_points": [
+        "Atuei como os olhos, ouvidos e braço direito do Gerente Regional, supervisionando e relatando o comportamento dos funcionários",
+        "Forneci serviços para o escritório, como artes marciais e vigilância",
+        "Introduzi novas linhas de papel de linho no mercado, muitas vezes fechando vendas sem serem vistas"
+      ]
     }
   ],
   "en": [
     {
-      "company": "Springfield International Human Rights Outreach",
-      "position": "VP of Global Communications", 
-      "duration": { "start": "Oct, 2013", "finish": "Present" },
+      "company": "Dunder Mifflin",
+      "position": "Regional Manager", 
+      "duration": { "start": "May, 2013", "finish": "Present" },
       "summary": "Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:",
       "bullet_points": [
         "A project you are proud of",
@@ -32,10 +53,32 @@
       ]
     },
     {
-      "company": "United Nations Human Rights Council",
-      "position": "Director of Digital Strategy",
-      "duration": { "start": "Jun, 2010", "finish": "Sept, 2013"},
+      "company": "Dunder Mifflin",
+      "position": "Assistant (to the) Regional Manager",
+      "duration": { "start": "Mar, 2008", "finish": "Mar, 2013" },
       "summary": "If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience."
+    },
+    {
+      "company": "Staples",
+      "position": "Sales Associate",
+      "duration": { "start": "Mar, 2008", "finish": "Mar, 2008" },
+      "summary": "",
+      "bullet_points": [
+        "Became the top salesman of the store within a one-month timespan",
+        "Made a record-high sales figure despite having an unfunny boss",
+        "Provided extraordinary and exceptional customer service to the masses"
+      ]
+    },
+    {
+      "company": "Dunder Mifflin",
+      "position": "Assistant (to the) Regional Manager",
+      "duration": { "start": "Mar, 2005", "finish": "Mar, 2008" },
+      "summary": "",
+      "bullet_points": [
+        "Acted as Regional Manager's eyes, ears and right hand, overseeing and reporting on employee conduct",
+        "Provided services to the office such as martial arts and surveillance",
+        "Introduced new linen paper lines to the market, often closing sight-unseen sales"
+      ]
     }
   ]
 }

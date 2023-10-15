@@ -16,6 +16,9 @@ const props = defineProps(['lang', 'translations'])
         {{ project.role }} &bull; {{ project.duration.start }} &mdash; {{ project.duration.finish }} 
       </h4>
       <p class="resume-item-copy">{{ project.description }}</p>
+      <ul class="resume-item-list" v-if="project.bullet_points.length">
+        <li v-for="point in project.bullet_points">{{ point }}</li>
+      </ul>
     </div>
   </section>
 </template>

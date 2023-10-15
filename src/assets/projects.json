@@ -1,18 +1,30 @@
 {
   "pt": [
     {
-      "project": "jazznotes.io",
-      "role": "Fundador e desenvolvedor primário",
-      "duration": { "start": "2012", "finish": "Presente" },
-      "description": "Jazz Notes é um projeto com node/ember open source que te ajuda a manter registros de suas composições musicais e novas ideias"
+      "project": "Schrute Farms",
+      "role": "Proprietário",
+      "duration": { "start": "1980", "finish": "Atualmente" },
+      "description": "Uma fazenda de beterraba de 60 acres de propriedade familiar em pleno funcionamento",
+      "bullet_points": [
+        "Gerenciar as operações no destino de agroturismo número 1 relacionado a beterrabas no Nordeste da Pensilvânia",
+        "Fornecer acomodações de qualidade para entusiastas de beterrabas em quartos temáticos representando a América, a Noite e a Irrigação",
+        "Atender ou exceder as necessidades de beterrabas de lojas locais, restaurantes e barracas de beira de estrada",
+        "Facilitar atividades recreativas, incluindo, mas não se limitando a, dodgeball de estrume, escultura de estátuas de manteiga fresca e produção de xarope de beterraba e rum"
+      ]
     }
   ],
   "en": [
     {
-      "project": "jazznotes.io",
-      "role": "Founder & Primary Developer",
-      "duration": { "start": "2012", "finish": "Present" },
-      "description": "Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas."
+      "project": "Schrute Farms",
+      "role": "Owner",
+      "duration": { "start": "1980", "finish": "Present" },
+      "description": "A family-owned 60 acre working beet farm",
+      "bullet_points": [
+        "Manage operations at the #1 beet-related agritourism B&B destination in Northeastern PA",
+        "Provide fine accommodations for beet enthusiasts in themed guest rooms representing America, Nighttime, and Irrigation",
+        "Meet or exceed beet needs of local stores, restaurants, and roadside stands",
+        "Facilitate recreational activites including but not limited to manure dodge ball, fresh butter statue sculpting, and beet syrup and rum making"
+      ]
     }
   ]
 }

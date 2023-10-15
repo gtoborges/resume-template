@@ -1,29 +1,53 @@
 {
   "pt": [
     {
-      "institution": "Universidade de Yale",
-      "degree": "Bacharelado em Artes",
+      "institution": "Universidade de Scraton",
+      "degree": "Administração de Empresas",
       "duration": {
-        "start": "2004",
-        "finish": "2008"
+        "start": "",
+        "finish": "1992"
+      },
+      "awards": [],
+      "award": "GPA: 2.99987",
+      "summary": ""
+    },
+    {
+      "institution": "Escola Secundária de Honesdale",
+      "degree": "Diploma de Ensino Médio",
+      "duration": {
+        "start": "",
+        "finish": "1988"
       },
       "awards": [
-        "Graduado com a Maior das Honras (Summa Cumma Laude)"
+        "Orador da turma"
       ],
       "award": "",
-      "summary": "Se você teve alguma participação significativa na universidade, escreva sobre nesta seção"
+      "summary": "Se você teve algum papel significativo na faculdade, sinta-se à vontade para escrever sobre eles aqui"
     }
   ],
   "en": [
     {
-      "institution": "Yale University",
-      "degree": "Bachelor of Arts, Human Rights",
+      "institution": "Scraton University",
+      "degree": "Business Administration",
       "duration": {
-        "start": "2004",
-        "finish": "2008"
+        "start": "",
+        "finish": "1992"
       },
       "awards": [],
-      "award": "Summa Cumme Laude graduate",
+      "award": "GPA: 2.99987",
+      "summary": ""
+    },
+    {
+      "institution": "Honesdale High School",
+      "degree": "High School Diploma",
+      "duration": {
+        "start": "",
+        "finish": "1988"
+      },
+      "awards": [
+        "Valedictorian"
+      ],
+      "award": "",
       "summary": "If you had any meaningful roles at college, feel free to write about them here"
     }
   ]

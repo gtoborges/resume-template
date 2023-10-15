@@ -15,7 +15,10 @@ const props = defineProps(['lang', 'translations'])
       <h4 class="resume-item-details group">
         {{ association.role }} &bull; {{ association.year }}
       </h4>
-      <p class="resume-item-copy">{{ association.summary }}</p>
+      <p class="resume-item-copy" v-if="association.summary">{{ association.summary }}</p>
+      <ul class="resume-item-list" v-if="association.bullet_points.length">
+        <li v-for="point in association.bullet_points">{{ point }}</li>
+      </ul>
     </div>
   </section>
 </template>

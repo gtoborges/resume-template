@@ -13,7 +13,9 @@ const props = defineProps(['lang', 'translations'])
         {{ education.institution }}
       </h3>
       <h4 class="resume-item-details group">
-        {{ education.degree }} &bull; {{ education.duration.start }} &mdash; {{ education.duration.finish }} 
+        {{ education.degree }} &bull; 
+        <span v-if="education.duration.start">{{ education.duration.start }} &mdash;&nbsp;</span>
+        <span v-if="education.duration.finish">{{ education.duration.finish }}</span> 
       </h4>
       <h5 class="resume-item-details award-title" v-if="education.award">
         {{ education.award }}

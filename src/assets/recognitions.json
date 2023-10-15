@@ -1,18 +1,18 @@
 {
   "pt": [
     {
-      "award": "Realização Notável",
-      "organization": "Profissionais Jovens de Springfield",
-      "year": "2010, 2014",
-      "summary": "Recebeu o prêmio Realização Notável por contribuições feitas à comunidade e conquistas profissionais."
+      "award": "Prêmio Dundies",
+      "organization": "Prêmios Anuais de Michael Scott",
+      "year": "2011",
+      "summary": "Prêmio de Assistente de Gerente Promissor"
     }
   ],
   "en": [
     {
-      "award": "Outstanding Achievement",
-      "organization": "Springfield Young Professionals",
-      "year": "2010, 2014",
-      "summary": "Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments."     
+      "award": "Dundies Awards",
+      "organization": "Michael Scott's Annual Awards",
+      "year": "2011",
+      "summary": "Promising Assistant Manager Award"
     }
   ]
 }
