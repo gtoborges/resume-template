@@ -19,17 +19,20 @@ First you'll want to fork the repo to your own account. Then clone it locally an
 
 #### Options/configuration
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+Most of the basic customization will take place in the `/src/assets/resume_config.json` file.
 
-[...write these out...]
+You can add as many languages as you like, as long as you fill the other *json* files accordingly.
 
 #### Editing content
 
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+Most of the content configuration will take place in the `/src/assets/*.json` files. Simply edit the json files there.
 
 ### Publishing to GitHub Pages for free
 
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're following the right directions to do so. Follow the instructions at the [Vite documentation](https://vitejs.dev/guide/static-deploy.html#github-pages)
+[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. 
+Just make sure you're following the right directions to do so. 
+Follow the instructions at the [Vite documentation](https://vitejs.dev/guide/static-deploy.html#github-pages) and 
+remember to edit the *vite.config.js* file accordingly to your repository
 
 ### Configuring with your own domain name
 
