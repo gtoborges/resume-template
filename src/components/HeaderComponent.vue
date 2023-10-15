@@ -17,7 +17,7 @@ const components = {
 
 <template>
   <header class="page-header"> 
-    <img src="../images/avatar.jpg" alt="my photo" class="avatar no-print" item-prop="image">
+    <img src="../images/avatar.png" alt="my photo" class="avatar no-print" item-prop="image">
     <h1 class="header-name" item-prop="name">{{ props.config.name }}</h1>
     <div class="title-bar no-print">
       <h2 class="header-title" item-prop="jobTitle">{{ props.config[props.lang].resume_title }}</h2>
