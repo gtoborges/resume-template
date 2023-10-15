@@ -63,7 +63,12 @@ onBeforeMount(() => {
       :translations="resume_config[lang]['links']"
     />
     <footer class="page-footer">
-      <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
+      <p class="footer-line">
+        Original project made by <a href="https://github.com/jglovier">@jglovier</a> 
+        and adapted by <a href="https://github.com/gtoborges">@gtoborges_</a> to work with Vite and Vue.
+        <br>
+        You can find the project <a href="https://github.com/gtoborges/resume-template">here on GitHub</a>.
+      </p>
     </footer>
   </body>
 </template>
