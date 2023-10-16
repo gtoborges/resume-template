@@ -27,9 +27,11 @@ const components = {
     <div class="title-bar no-print">
       <h2 class="header-title" item-prop="jobTitle">{{ props.config[props.lang].resume_title }}</h2>
       <ul class="icon-links" >
-        <li class="icon-link-item" v-for="social of props.config.social_links">
-          <a class="icon-link" :href="social.url"><component :is="components[social.name]"></component></a>
-        </li>
+        <template v-for="social of props.config.social_links">
+          <li class="icon-link-item" v-if="social.show">
+            <a class="icon-link" :href="social.url"><component :is="components[social.name]"></component></a>
+          </li>
+        </template>
       </ul>
     </div>
     <div class="executive-summary" itemprop="description">

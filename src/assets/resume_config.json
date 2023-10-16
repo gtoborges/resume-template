@@ -14,12 +14,12 @@
     },
     {
       "name": "Twitter",
-      "show": true,
+      "show": false,
       "url": "http://twitter.com/"
     },
     {
       "name": "Facebook",
-      "show": true,
+      "show": false,
       "url": "https://www.facebook.com/"
     },
     {
