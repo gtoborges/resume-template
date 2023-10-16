@@ -23,9 +23,15 @@ onBeforeMount(() => {
 
 <template>
   <body class="theme-default wrapper">
-    <select v-if="Object.keys(resume_config.languages).length > 1" v-model="lang" name="languages" id="lang" style="float: right">
-      <option v-for="language of Object.keys(resume_config.languages)" :value="language">{{resume_config.languages[language]}}</option>
-    </select>
+    <div class="no-print select-language-container">
+      <select v-if="Object.keys(resume_config.languages).length > 1" 
+        v-model="lang" 
+        name="languages" 
+        id="lang"   
+      >
+        <option v-for="language of Object.keys(resume_config.languages)" :value="language">{{resume_config.languages[language]}}</option>
+      </select>
+    </div>
     <HeaderComponent :config="resume_config" :lang="lang"/>
     <ExperiencesComponent 
       v-if="resume_config.resume_sections['experiences']" 

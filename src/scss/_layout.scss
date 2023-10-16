@@ -11,6 +11,12 @@
   @include clearfix;
 }
 
+.select-language-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1.5rem;
+}
+
 // Grid system
 //
 // Create rows with `.columns` to clear the floated columns and outdent the
