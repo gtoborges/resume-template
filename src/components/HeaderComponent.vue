@@ -35,6 +35,11 @@ const components = {
     <div class="executive-summary" itemprop="description">
       <p>{{props.config[props.lang].resume_intro}}</p>
     </div>
-    <a :href="`mailto:${props.config.contact}`" class="contact-button no-print">{{ props.config[props.lang].contact_button_message }}</a>
+    <a :href="`mailto:${props.config.contact}`" 
+      class="contact-button no-print"
+      v-if="props.config.show_contact"
+    >
+      {{ props.config[props.lang].contact_button_message }}
+    </a>
   </header>
 </template>
